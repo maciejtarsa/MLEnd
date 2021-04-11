@@ -19,4 +19,4 @@ The project requires a download of the dataset. This can be done locally or in G
 This repository contains the following files
 - trainingMLEnd.csv file containing information about the dataset
 - database_download.ipnyb file for downloading the database
-- 
+- telephone_numbers folder containing 15 .wav files of sequences of 11 numbers spoken
