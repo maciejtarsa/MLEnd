@@ -10,6 +10,15 @@ This project contains two models:
 ### Prediction of intonation of the speaker
 ### Prediction of the digit spoken
 
+# Project contents
+This repository contains the following files
+- `trainingMLEnd.csv` a file containing information about the dataset
+- **`database_download.ipnyb`** notebook with instruction on how to download the dataset
+- `features.csv` a file containing all features extracted from the dataset
+- `intonations.csv` a file containing the intonations associated with features extracted
+- `numerals.csv` a file containing the numerals associated with the features extracted
+- `telephone_numbers` a folder containing 15 .wav files of sequences of 11 numbers spoken
+
 # Setup
 The project requires a download of the dataset. This can be done locally or in Google Drive. Instructions for Google Drive setup.
 
@@ -20,11 +29,4 @@ The project requires a download of the dataset. This can be done locally or in G
 4. Move the file 'trainingMLEnd.csv' to the newly created folder 'MyDrive/Data/MLEnd'
 5. Instructions for downloading the database can be found in `database_download.ipnyb`
 
-# Project contents
-This repository contains the following files
-- `trainingMLEnd.csv` a file containing information about the dataset
-- **`database_download.ipnyb`** notebook with instruction on how to download the dataset
-- `features.csv` a file containing all features extracted from the dataset
-- `intonations.csv` a file containing the intonations associated with features extracted
-- `numerals.csv` a file containing the numerals associated with the features extracted
-- `telephone_numbers` a folder containing 15 .wav files of sequences of 11 numbers spoken
+
