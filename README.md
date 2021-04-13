@@ -1,4 +1,4 @@
-# MLEnd
+# MLEnd Spoken Numerals
 A machine learning project exploring a dataset of spoken numerals.
 
 ## The dataset
