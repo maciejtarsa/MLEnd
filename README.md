@@ -20,7 +20,8 @@ This repository contains the following files
 - `telephone_numbers` a folder containing 15 .wav files of sequences of 11 numbers spoken
 
 # Setup
-The project requires a download of the dataset. This can be done locally or in Google Drive. Instructions for Google Drive setup.
+The project was run in Google Colab. A widget only available in Google Colab was used, but otherwise, the project could be run in any Jupyter Notebook enviornment.<br><br>
+Furthermore, the project requires a download of the dataset. This can be done locally or in Google Drive. Instructions for Google Drive setup.
 
 ## Google Drive set up
 1. Go to https://drive.google.com/
