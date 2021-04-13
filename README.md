@@ -8,8 +8,9 @@ Each participants has been asked to record a set of spoken numerals (0-20, 30, 4
 ## The models
 This project contains two models:
 ### Prediction of intonation of the speaker
-Using Support Vector Machine, my model achieved the validation accuracy of 58%. Interestingely, the model was much better at predicting bored intonation (sensitivity of 0.67) than other intonations (question - 0.60, excited - 0.56, neutral - 0.51).
+After exploring using different features and different models, Support Vector Machines proved most accurate. Final model used Support Vector Machine and achieved the validation accuracy of 58%. Interestingely, the model was much better at predicting bored intonation (sensitivity of 0.67) than other intonations (question - 0.60, excited - 0.56, neutral - 0.51).
 ### Prediction of the digit spoken
+After exploring using different features and different models, Logistic Regression proved most accurate. Final model used Logistic Regression and achieved the validation accuracy of 31%. Sensitivity varied between different numerals, top prediction was numeral '6' with sensitivity of 0.53 and the worse prediction numeral '5' with sensitivity of 0.19.
 
 # Project contents
 This repository contains the following files
@@ -18,6 +19,7 @@ This repository contains the following files
 - **`intonation_prediction.ipynb`** notebook with the model to predict the intonation of the speaker
 - `features.csv` a file containing all features extracted from the dataset
 - `intonations.csv` a file containing the intonations associated with features extracted
+- **`numeral_prediction.ipynb`** notebook with the model to predict the digit spoken
 - `numerals.csv` a file containing the numerals associated with the features extracted
 - `telephone_numbers` a folder containing 15 .wav files of sequences of 11 spoken numbers
 
@@ -31,5 +33,3 @@ Furthermore, the project requires a download of the dataset. This can be done lo
 3. Open the 'Data' folder and create a folder named 'MLEnd'
 4. Move the file 'trainingMLEnd.csv' to the newly created folder 'MyDrive/Data/MLEnd'
 5. Instructions for downloading the database can be found in `database_download.ipnyb`
-
-
