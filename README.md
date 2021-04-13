@@ -8,12 +8,14 @@ Each participants has been asked to record a set of spoken numerals (0-20, 30, 4
 ## The models
 This project contains two models:
 ### Prediction of intonation of the speaker
+Using Support Vector Machine, my model achieved the validation accuracy of 58%. Interestingely, the model was much better at predicting bored intonation (sensitivity of 0.67) than other intonations (question - 0.60, excited - 0.56, neutral - 0.51).
 ### Prediction of the digit spoken
 
 # Project contents
 This repository contains the following files
 - `trainingMLEnd.csv` a file containing information about the dataset
 - **`database_download.ipnyb`** notebook with instruction on how to download the dataset
+- **`intonation_prediction.ipynb`** notebook with the model to predict the intonation of the speaker
 - `features.csv` a file containing all features extracted from the dataset
 - `intonations.csv` a file containing the intonations associated with features extracted
 - `numerals.csv` a file containing the numerals associated with the features extracted
