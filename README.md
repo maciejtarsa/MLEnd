@@ -17,7 +17,7 @@ This repository contains the following files
 - `features.csv` a file containing all features extracted from the dataset
 - `intonations.csv` a file containing the intonations associated with features extracted
 - `numerals.csv` a file containing the numerals associated with the features extracted
-- `telephone_numbers` a folder containing 15 .wav files of sequences of 11 numbers spoken
+- `telephone_numbers` a folder containing 15 .wav files of sequences of 11 spoken numbers
 
 # Setup
 The project was run in Google Colab. A widget only available in Google Colab was used, but otherwise, the project could be run in any Jupyter Notebook enviornment.<br><br>
