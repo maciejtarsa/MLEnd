@@ -2,7 +2,7 @@
 A machine learning project exploring a dataset of spoken numerals.
 
 ## The dataset
-The dataset contains 20,000 spoken numerals. The entries were gathered as part of Machine Learning module at Queen Mary University of London in 2021.
+MLEnd Spoken Numerals is a dataset of 20,000 spoken numerals. The entries were gathered as part of Machine Learning module at Queen Mary University of London in 2021.
 Each participants has been asked to record a set of spoken numerals (0-20, 30, 40, 50, 60, 70, 80, 90, 100, thousand, million, billion) in 4 different intonations (neutral, bored, excited, question). The participants mosly included student from that module and therefore include many accents and pronunciations from across the world.
 
 ## The models
