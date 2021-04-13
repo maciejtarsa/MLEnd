@@ -11,6 +11,8 @@ This project contains two models:
 After exploring using different features and different models, Support Vector Machines proved most accurate. Final model used Support Vector Machine and achieved the validation accuracy of 58%. Interestingely, the model was much better at predicting bored intonation (sensitivity of 0.67) than other intonations (question - 0.60, excited - 0.56, neutral - 0.51).
 ### Prediction of the digit spoken
 After exploring using different features and different models, Logistic Regression proved most accurate. Final model used Logistic Regression and achieved the validation accuracy of 31%. Sensitivity varied between different numerals, top prediction was numeral '6' with sensitivity of 0.53 and the worse prediction numeral '5' with sensitivity of 0.19.
+#### Telephone prediction use case
+I tested the trained model for predicting spoken numberal on a set of spoken telephone numbers. 3 sets were used, one by Polish native speaker, one by English native speaker and one put together from training data randomly. The model performed worse than a randomly generated number which suggest that it was not ready for deployment.
 
 # Project contents
 This repository contains the following files
@@ -21,6 +23,7 @@ This repository contains the following files
 - `intonations.csv` a file containing the intonations associated with features extracted
 - **`numeral_prediction.ipynb`** notebook with the model to predict the digit spoken
 - `numerals.csv` a file containing the numerals associated with the features extracted
+- **`telephone_prediction.ipynb`** notebook with a use case of the trained model being applied to predicting spoken telephone numbers
 - `telephone_numbers` a folder containing 15 .wav files of sequences of 11 spoken numbers
 
 # Setup
